@@ -5,8 +5,6 @@ Dive into the following topics
 - Numeric Computation
 - Data Visualization
     - basic plotting
-- Machine Learning
-- Social Network Analysis
 
 ## Up Front Preparations
 
@@ -43,17 +41,11 @@ If you don't succeed to install them upfront, don't worry: If help is needed, we
     # or
     conda install -c conda-forge cartopy=0.15.1
     
-    conda install networkx
-    pip install python-louvain
-
-    pip install graphviz
+    conda install --channel conda-forge geopandas
     
-    pip install xlrd
-```
-On OS-Level you also will need graphviz.
-Please check the [Graphviz Homepage](http://www.graphviz.org/) about how to install on your Machine.
+    conda install --channel conda-forge pandas
 
-You can check, whether the additional packages also work fine, with [The Jupyter Notebook for the Test of the additional Components](./nbs/0-b-Additional%20Component%20Installation%20Test.ipynb).
+```
 
 ## Refresher - Python(3) Basics
 If you need a refresher of your Python knowledge the [Interactive Python Tutorial](https://www.learnpython.org/) is a good starting point.
