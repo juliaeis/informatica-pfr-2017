@@ -5,6 +5,7 @@ Dive into the following topics
 - Numeric Computation
 - Data Visualization
     - basic plotting
+- What you would like to do
 
 ## Up Front Preparations
 
